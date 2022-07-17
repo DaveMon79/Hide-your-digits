@@ -4,8 +4,8 @@ var generateBtn = document.querySelector("#generate");
 
 
 // assigning strings of letters, numbers and special characters which will make up the end password
-var uppercaseLetters = ["ABCDEFGHIJKLMNOPQRSTUVWXYZ"];
-var lowercaseLetters = ["abcdefghijklmnopqrstuvwxyz"];
+var uppercaseLetters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
+var lowercaseLetters = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
 var numbers = ["0","1","2","3","4","5","6","7","8","9"];
 var specialCharacters = ["!","£","$","%","^","&","*","*","(",")","@","~","#","?","<",">"];
 
@@ -92,33 +92,34 @@ var password ="";
   }
   
 
-  //Removing no answers from promt questions
-  var generatePassword = function () {
-  var length = (passwordLength);
-  var uppercasePrompt = true;
-  var lowercasePrompt = true;
-  var numbersPrompt = true;
-  var specialCharactersPrompt = true;
+  //Removing "no" answers from promt questions
+  function generatePassword () {
+  let length = passwordLength;
+  let uppercasePrompt = true;
+  let lowercasePrompt = true;
+  let numbersPrompt = true;
+  let specialCharactersPrompt = true;
     
-        
-    var passwordArray = [];
+  
+  // Generating random password 
+    var randomPassword = [];
       if (uppercasePrompt) {
-      passwordArray.splice (uppercaseLetters);
+      randomPassword.splice (0,0,...uppercaseLetters);
     
     } if (lowercasePrompt) {
-      passwordArray.splice (lowercaseLetters);
+      randomPassword.splice (0,0,...lowercaseLetters);
     
     } if (numbersPrompt) {
-      passwordArray.splice (numbers);
+      randomPassword.splice (0,0,...numbers);
     
     } if (specialCharactersPrompt) {
-      passwordArray.splice (specialCharacters);
+      randomPassword.splice (0,0,...specialCharacters);
     
     } var password = "";
     
       for(i = 0; i <= length; i++) {
-      var randomNum = Math.floor(Math.random() * passwordArray.length);
-      password += passwordArray[randomNum];
+      var randomNum = Math.floor(Math.random() * randomPassword.length);
+      password += randomPassword[randomNum];
     
     } return password;
   

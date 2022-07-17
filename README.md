@@ -1,16 +1,15 @@
 # Hide your digits - Generate password
 
-I was given exsisting HTML, CSS and Javascript code. The task was to add to that code to create a random password out of options which were selected by the user.
+I was tasked with creating a random password generator. As part of the task i was supplied with functional HTML and CSS code, and partial Javascript code, which we had to build on to make the password generator functional. 
 
 # Actions taken 
 
-Using HTML & CSS, I created a professional looking portfolio for myself. The portfolio includes the following information:
+I broke the task down in steps which needed to be achieved in order to succesfully acheive the task:
 
-* Header with navigational links
-* An image of myself
-* Personal bio of work history and personal statement
-* Examples of previous projects I’ve completed, with links to the projects
-* Footer with contact information which links to each contact form 
+* Create four different arrays to store uppercase letters, lowercase letters, number and special characters
+* Create a prompt box which to take and store user information
+* Make a random password out of the user information stored within variables
+
 
 
 # Code Style
@@ -35,9 +34,14 @@ https://davemon79.github.io/Hide-your-digits
 
 # Difficulties
 
-I found this project extremely difficlut with it being the first time i've attempted to use javascript, so difficult i wasn't able to complete it. 
+I found the whole project extremely difficult, with it being my first attempt at coding with Javascript. Whie there was endless YouTube tutorial videos to refer to, i struggled to find any examples which fit the flow of the code I had already written. 
 
-* Converting information taken in the prompt boxes in to a password
+
+
+# Success
+
+* I was able to write a base code with working prompt boxes which store user information in variables
+* While i'm still a javascript novice, i have far greater undertanding of how it works and what it can do
 
 
 
