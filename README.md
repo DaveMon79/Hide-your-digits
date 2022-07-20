@@ -1,6 +1,6 @@
 # Hide your digits - Generate password
 
-I was tasked with creating a random password generator. As part of the task i was supplied with functional HTML and CSS code, and partial Javascript code, which we had to build on to make the password generator functional. 
+I was tasked with creating a random password generator. As part of the task i was supplied with functional HTML and CSS code, and partial Javascript code which we had to build on to make the password generator functional. 
 
 # Actions taken 
 
@@ -34,20 +34,21 @@ https://davemon79.github.io/Hide-your-digits
 
 # Difficulties
 
-I found the whole project extremely difficult, with it being my first attempt at coding with Javascript. Whie there was endless YouTube tutorial videos to refer to, i struggled to find any examples which fit the flow of the code I had already written. 
+I found the whole project extremely difficult with it being my first attempt at coding with Javascript. While there's endless YouTube tutorial videos to refer to, i struggled to find any examples which fit the flow of the code I had already written. 
 
 
 
 # Success
 
-* I was able to write a base code with working prompt boxes which store user information in variables
-* While i'm still a javascript novice, i have far greater undertanding of how it works and what it can do
+* After many hours of researh i was able to write a base code for the password generator. With a few tweeks from my tutor the password generator began to work. 
+
+* While i'm still a javascript novice, i have far greater undertanding of how it works and what it can do.
 
 
 
 # Credits
 
-* My Tutor - Navpreet Ahuja 
+* My Tutor - Michael Zapata
 * You Tube - Tutorial videos
 * https://www.w3schools.com/ - for code tips
 
